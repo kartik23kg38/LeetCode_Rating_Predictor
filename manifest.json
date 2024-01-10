@@ -1,6 +1,6 @@
 {
   "manifest_version": 3,
-  "name": "LeetCodeRatingPredictor",
+  "name": "LeetCode_Rating_Predictor",
   "version": "1.0.1",
 
   "background": {
@@ -9,17 +9,20 @@
   "action": {
     "default_popup": "./popup.html",
     "icons": {
-    
-      "128": "/icons/icon128.png"
+      "16": "/icons/pic1.png",
+      "32": "/icons/pic2.png",
+      "48": "/icons/pic3.png",
+      "64": "/icons/pic4.png",
+      "128": "/icons/pic5.png"
     }
   },
-  "description": "Elevate your LeetCode contests with instant rating predictions. Effortlessly track your performance within the platform.",
+  "description": "Browser extension for predicting leetcode contest rating. It shows approximate rating delta after contests on leetcode itself.",
   "icons": {
-    "16": "/icons/icon16.png",
-    "32": "/icons/icon32.png",
-    "48": "/icons/icon48.png",
-    "64": "/icons/icon64.png",
-    "128": "/icons/icon128.png"
+    "16": "/icons/pic1.png",
+    "32": "/icons/pic2.png",
+    "48": "/icons/pic3.png",
+    "64": "/icons/pic4.png",
+    "128": "/icons/pic5.png"
   },
   "options_page": "./options.html",
   "permissions": [

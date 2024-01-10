@@ -149,7 +149,6 @@ if (!window.MyLRP_Extension) {
                                         } else {
                                             td.style.color = "gray";
                                         }
-                                        // td.style.fontWeight = "bold";
                                     }
                                     if (!rowsChanged.has(rowIndex)) {
                                         row.appendChild(td);
